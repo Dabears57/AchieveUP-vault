@@ -145,4 +145,4 @@ Each `{condition && (<div>...</div>)}` means "render this only if the condition 
 3. What's the difference between `useEffect(..., [])` and `useEffect(..., [selectedCourse])`?
 4. When the user picks a different course in the dropdown, list the chain of events that ends with the table re-drawing.
 
-**Next file:** [[Frontend Auth Flow]] covers `AuthContext.tsx` — where `useAuth()`, `isAuthenticated`, and `loading` actually come from.
+**Next file:** [[AuthContext.tsx Walkthrough]] — where `useAuth()`, `isAuthenticated`, and `loading` actually come from. [[Frontend Auth Flow]] has the sequence diagram if you want the bird's-eye picture first.
